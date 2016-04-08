@@ -65,7 +65,6 @@
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
-  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="github" revision="m" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
@@ -241,7 +240,6 @@
   <project path="packages/apps/ContactsCommon" name="temasek/android_packages_apps_ContactsCommon" remote="github" revision="cm-13.0" />
   <project path="packages/apps/DeskClock" name="temasek/android_packages_apps_DeskClock" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Dialer" name="Zeus-rom/android_packages_apps_Dialer" />
-  <project path="packages/apps/DUI" name="DirtyUnicorns/android_packages_apps_DUI" remote="github" revision="m" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
