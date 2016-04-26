@@ -227,7 +227,6 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="zeus" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="temasek/android_packages_apps_PhoneCommon" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
@@ -290,7 +289,8 @@
 <!-- END Zeus and CM repos -->
 
 <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
 <!-- END CMSDK SAMPLES -->
 
 <!-- END CYANOGENMOD -->
