@@ -13,6 +13,10 @@
            fetch="https://github.com/Zeus-rom"
            revision="cm-13.0" />
 
+  <remote  name="du"
+           fetch="https://github.com/"
+           review="http://gerrit.dirtyunicorns.com" />
+
   <remote  name="uber"
 	   fetch="https://bitbucket.org/UBERTC/"
            revision="master" />
@@ -62,6 +66,7 @@
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
+  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="du" revision="m" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" groups="pdk" />
@@ -212,6 +217,7 @@
   <project path="packages/apps/ContactsCommon" name="temasek/android_packages_apps_ContactsCommon" remote="github" revision="cm-13.0" />
   <project path="packages/apps/DeskClock" name="temasek/android_packages_apps_DeskClock" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Dialer" name="Zeus-rom/android_packages_apps_Dialer" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="zeus" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
